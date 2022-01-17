@@ -1,42 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuites name="Mocha Tests" time="0.2120" tests="7" failures="7">
-  <testsuite name="Root Suite" timestamp="2022-01-17T05:10:38" tests="0" time="0.0000" failures="0">
+<testsuites name="Mocha Tests" time="0.3400" tests="7" failures="0">
+  <testsuite name="Root Suite" timestamp="2022-01-17T05:15:27" tests="0" time="0.0000" failures="0">
   </testsuite>
-  <testsuite name="express_pagination_middleware" timestamp="2022-01-17T05:10:38" tests="7" file="/Users/Patricio/Sites/nodejs-pagination-middleware/test/index.spec.js" time="0.2120" failures="7">
-    <testcase name="express_pagination_middleware Should have the context object in the request" time="0.0090" classname="Should have the context object in the request">
-      <failure message="expected { url: &apos;/recipes&apos;, query: {} } to have property &apos;context&apos;" type="AssertionError"><![CDATA[AssertionError: expected { url: '/recipes', query: {} } to have property 'context'
-    at Context.<anonymous> (test/index.spec.js:24:25)
-    at processImmediate (node:internal/timers:464:21)]]></failure>
+  <testsuite name="express_pagination_middleware" timestamp="2022-01-17T05:15:27" tests="7" file="/Users/Patricio/Sites/nodejs-pagination-middleware/test/index.spec.js" time="0.3400" failures="0">
+    <testcase name="express_pagination_middleware Should have the context object in the request" time="0.0330" classname="Should have the context object in the request">
     </testcase>
-    <testcase name="express_pagination_middleware Should have property id, timestamp, path in trace object" time="0.0000" classname="Should have property id, timestamp, path in trace object">
-      <failure message="Cannot read properties of undefined (reading &apos;should&apos;)" type="TypeError"><![CDATA[TypeError: Cannot read properties of undefined (reading 'should')
-    at Context.<anonymous> (test/index.spec.js:29:21)
-    at processImmediate (node:internal/timers:464:21)]]></failure>
+    <testcase name="express_pagination_middleware Should have property id, timestamp, path in trace object" time="0.0060" classname="Should have property id, timestamp, path in trace object">
     </testcase>
-    <testcase name="express_pagination_middleware Should have the default page, limit and skip property values" time="0.0000" classname="Should have the default page, limit and skip property values">
-      <failure message="Cannot read properties of undefined (reading &apos;page&apos;)" type="TypeError"><![CDATA[TypeError: Cannot read properties of undefined (reading 'page')
-    at Context.<anonymous> (test/index.spec.js:38:21)
-    at processImmediate (node:internal/timers:464:21)]]></failure>
+    <testcase name="express_pagination_middleware Should have the default page, limit and skip property values" time="0.0190" classname="Should have the default page, limit and skip property values">
     </testcase>
-    <testcase name="express_pagination_middleware Should set the correct skip value based on page and limit" time="0.0000" classname="Should set the correct skip value based on page and limit">
-      <failure message="Cannot read properties of undefined (reading &apos;page&apos;)" type="TypeError"><![CDATA[TypeError: Cannot read properties of undefined (reading 'page')
-    at Context.<anonymous> (test/index.spec.js:47:21)
-    at processImmediate (node:internal/timers:464:21)]]></failure>
+    <testcase name="express_pagination_middleware Should set the correct skip value based on page and limit" time="0.0030" classname="Should set the correct skip value based on page and limit">
     </testcase>
-    <testcase name="express_pagination_middleware Should have a valid search property in context object" time="0.0010" classname="Should have a valid search property in context object">
-      <failure message="Cannot read properties of undefined (reading &apos;searchTerm&apos;)" type="TypeError"><![CDATA[TypeError: Cannot read properties of undefined (reading 'searchTerm')
-    at Context.<anonymous> (test/index.spec.js:57:21)
-    at processImmediate (node:internal/timers:464:21)]]></failure>
+    <testcase name="express_pagination_middleware Should have a valid search property in context object" time="0.0070" classname="Should have a valid search property in context object">
     </testcase>
-    <testcase name="express_pagination_middleware Should respond with the correct data - 1 " time="0.1860" classname="Should respond with the correct data - 1 ">
-      <failure message="Cannot read properties of undefined (reading &apos;should&apos;)" type="TypeError"><![CDATA[TypeError: Cannot read properties of undefined (reading 'should')
-    at /Users/Patricio/Sites/nodejs-pagination-middleware/test/index.spec.js:64:27
-    at processTicksAndRejections (node:internal/process/task_queues:96:5)]]></failure>
+    <testcase name="express_pagination_middleware Should respond with the correct data - 1 " time="0.1660" classname="Should respond with the correct data - 1 ">
     </testcase>
-    <testcase name="express_pagination_middleware Should respond with the correct data - 2" time="0.0160" classname="Should respond with the correct data - 2">
-      <failure message="Cannot read properties of undefined (reading &apos;length&apos;)" type="TypeError"><![CDATA[TypeError: Cannot read properties of undefined (reading 'length')
-    at /Users/Patricio/Sites/nodejs-pagination-middleware/test/index.spec.js:96:27
-    at processTicksAndRejections (node:internal/process/task_queues:96:5)]]></failure>
+    <testcase name="express_pagination_middleware Should respond with the correct data - 2" time="0.1060" classname="Should respond with the correct data - 2">
     </testcase>
   </testsuite>
 </testsuites>
